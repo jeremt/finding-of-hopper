@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    font-family: Silkscreen, monospace;
+    color: #eeeeee;
+    background-color: #222222;
+}
+
+p {
+    color: #aaaaaa;
+}
+
+canvas {
+    width: 512px;
+    height: 512px;
+    border: 5px solid #444444;
+    image-rendering: pixelated;
+}
